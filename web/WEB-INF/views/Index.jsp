@@ -155,6 +155,7 @@
                 "/search/searchTrains.do",
                 searchForm.serializeArray(),
                 function (data) {
+
                     var currentDate = new Date();
                     var currentyear = currentDate.getFullYear();
                     var currentmonth = currentDate.getMonth() + 1;
@@ -350,11 +351,11 @@
                                     "lengthMenu": [ 5, 10, 15]
                                 });
                             }
-                            else alert("选择的日期不合法！");
+                            else alert("选择的日期已过期！");
                         }
-                        else alert("选择的日期不合法！");
+                        else alert("选择的日期已过期！");
                     }
-                    else alert("选择的日期不合法！");
+                    else alert("选择的日期已过期！");
 
                 }, "json");
             return false;

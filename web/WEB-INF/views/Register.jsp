@@ -60,7 +60,7 @@
                             <div class="checkbox">
                                 <label class="form_tips">
                                 <label><input type="checkbox" name="Agree" checked="checked"></label>我已阅读并同意
-                                <a href="Protocol.html" target="_blank">《94购票网服务协议》</a>
+                                <a href="${pageContext.request.contextPath}/protocol/viewProtocol.do" target="_blank">《94购票网服务协议》</a>
                             </label>
                             </div>
                             <input type="submit" class="btn btn-primary" onclick="nextPage()" value="注册&raquo;"/>
